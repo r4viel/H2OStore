@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     min-height: 100vh;
     font-family: sans-serif;
@@ -143,6 +146,7 @@ footer{
     border-radius: 5px;
     margin-top: 20px;
     font-size: 19px;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
 }
 .ancora_hero:hover{
     background-color: white;
