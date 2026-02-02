@@ -27,38 +27,7 @@ h1{
     text-align: center;
     margin-bottom: 25px;
 }
-nav{
-    margin: 20px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
 
-ul{
-    display: flex;
-    list-style-type: none;
-    gap: 25px;
-     
-}
-.acoes-usuário{
-    display: flex;
-    align-items: center:
-    gap: 15px;
-}
-.barra_pesquisa input{
-    width: 160px;
-    border-radius: 20px;
-}
-.barra_pesquisa{
-    display: flex
-    align-items: center;
-    gap: 6px;
-}
-.btn-usuario{
-    padding: 10px 14px;
-    border-radius: 20px;
-    font-size:0.9rem
-}
 a{
     text-decoration: none;
     color: inherit;
