@@ -27,18 +27,27 @@
                 <li><a href="sobre.html" class="item_menu">Sobre</a></li>
                 <li><a href="contatos.html"class="item_menu">Contatos</a></li>
             </ul>
-        </nav>
-             <div class="acoes-usuario">
+            <div class= "barra_pesquisa"> 
+            <form action= "#" method= "get">
+            <input
+                type="search"
+                id="campo_pesquisa"
+                placeholder="Bucar produtos...">
+                
+            <button type="onClick" class="btn-usuario">🔍︎​</button>
+            </form>
+        </div>
+           <div class="acoes-usuario">
 
-        <button type="button" class="btn-usuario" id="btn-perfil">
+        <button type="onClick" class="btn-usuario" id="btn-perfil">
             👤 <span id="nome-usuario">Perfil</span>
         </button>
 
-        <button type="button" class="btn-usuario" id="btn-carrinho">
+        <button type="onClick" class="btn-usuario" id="btn-carrinho">
             🛒 Carrinho <span id="contador-carrinho"></span>
         </button>
-
-    </div>
+            </div> 
+        </nav>
     </header>
     <main>
         <section class="hero">
@@ -179,6 +188,7 @@
 
 </body>
 </html>
+
 
 
 
