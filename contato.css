@@ -9,8 +9,12 @@ body{
     color: rgb(1, 1, 94);
 }
 .logo{
-    width: 150px;
-    margin-top: -45px;
+     width: 70px;
+    heigh: auto;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    opacity: 0,9;
 }
 header{
     height: 20%;
