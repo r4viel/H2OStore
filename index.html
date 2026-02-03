@@ -7,48 +7,38 @@
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-    <header>
-        <img src="imagem/logo.jpg" alt="logo" class="logo">
+    <header class="header">
+    <div class="header-esquerda">
+        <img src="imagem/logo.jpg" alt="Logo H2O Store" class="logo">
+    </div>
+
+    <div class="header-centro">
         <h1>H2O Store</h1>
-         <div class= "barra_pesquisa"> <form action= "#" method= "get">
-            <input
-                type="search"
-                id="campo_pesquisa"
-                placeholder="Bucar produtos...">
-                
-            <button type="on-click" class="btn-usuario">🔍︎​</button>
-            </form>
-        <nav>
-            <ul>
-                <li><a href="feminino.html" class="item_menu">Feminino</a></li>
-                <li><a href="masculino.html" class="item_menu">Masculino</a></li>
-                <li><a href="equipamentos.html" class="item_menu">Equipamentos</a></li>
-                <li><a href="infantil.html" class="item_menu">Infantil</a></li>
-                <li><a href="sobre.html" class="item_menu">Sobre</a></li>
-                <li><a href="contatos.html"class="item_menu">Contatos</a></li>
-            </ul>
-            <div class= "barra_pesquisa"> 
-            <form action= "#" method= "get">
-            <input
-                type="search"
-                id="campo_pesquisa"
-                placeholder="Bucar produtos...">
-                
-            <button type="onClick" class="btn-usuario">🔍︎​</button>
-            </form>
+    </div>
+
+    <div class="header-direita">
+        <form class="barra_pesquisa">
+            <input type="search" placeholder="Buscar produtos...">
+            <button class="btn-usuario">🔍</button>
+        </form>
+
+        <div class="acoes-usuario">
+            <button class="btn-usuario">👤 Perfil</button>
+            <button class="btn-usuario">🛒 Carrinho</button>
         </div>
-           <div class="acoes-usuario">
+    </div>
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html" class="item_menu">Página Inicial</a></li>
+            <li><a href="feminino.html" class="item_menu">Feminino</a></li>
+            <li><a href="masculino.html" class="item_menu">Masculino</a></li>
+            <li><a href="equipamentos.html" class="item_menu">Equipamentos</a></li>
+            <li><a href="infantil.html" class="item_menu">Infantil</a></li>
+            <li><a href="sobre.html" class="item_menu">Sobre</a></li>
+        </ul>
+    </nav>
+</header>
 
-        <button type="onClick" class="btn-usuario" id="btn-perfil">
-            👤 <span id="nome-usuario">Perfil</span>
-        </button>
-
-        <button type="onClick" class="btn-usuario" id="btn-carrinho">
-            🛒 Carrinho <span id="contador-carrinho"></span>
-        </button>
-            </div> 
-        </nav>
-    </header>
     <main>
         <section class="hero">
             <div class="caixa_hero">
@@ -188,6 +178,7 @@
 
 </body>
 </html>
+
 
 
 
