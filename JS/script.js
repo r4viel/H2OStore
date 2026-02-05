@@ -1,9 +1,3 @@
-//Variaveis
-
-let BtnAdicionar = document.getElementsByClassName('btn-adicionar')
-let BtnEnviar = document.getElementsByClassName('btn-enviar')
-let Produtos = document.getElementsByClassName('produtos')
-
 //Formulario para whatsapp
 function EnviarAoWhatsapp() {
     const nome = document.getElementById("name").value;
@@ -22,4 +16,3 @@ function EnviarAoWhatsapp() {
     const url = "https://wa.me/" + telefoneEmpresa + "?text=" + encodeURIComponent(dadosFormatados);
     window.open(url, "_blank");
 }
-
