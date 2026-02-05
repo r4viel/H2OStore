@@ -64,9 +64,9 @@ body{
 .btn-usuario {
     background-color: rgb(1, 1, 94);
     color: white;
-    padding: 8px 14px;
-    border: none;
-    border-radius: 20px;
+    padding: 8px 14px;      
+    border: 1px solid rgb(1, 1, 94);  
+    border-radius: 20px;    
     font-weight: bold;
     cursor: pointer;
 }
@@ -74,6 +74,7 @@ body{
 .btn-usuario:hover {
     opacity: 0.9;
 }
+
 
 .menu ul {
     display: flex;
